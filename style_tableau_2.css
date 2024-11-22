@@ -1,0 +1,66 @@
+table { /* d�finition g�n�rale du style du tableau */
+border:3px solid #6495ed; /* bordure du tableau : �paisseur, continue/pointill�e (dotted), couleur */
+/*  border-collapse:collapse;   /* option qui fusionne les bordures du tableau aux bordures de cellules */
+width:60%; /* largeur du tableau dans la page */
+margin:auto; /* marges automatiques : centrage par d�faut */
+background-color: #D0E3FA;
+}
+
+tr.haut{ /* table row : ligne de tableau  haute*/
+height: 200px;	/* hauteur de ligne */
+vertical-align: middle; /*qui peut prendre les valeurs :  baseline | top | middle */
+}
+tr.normale{ /* table row : ligne de tableau  haute*/
+height: 70px;	/* hauteur de ligne */
+}
+
+th { /* table header : cellules de titrage */
+font-family: "Times new roman", serif; 
+color: #000099;
+font-weight: bold;
+font-size: 3.20em; /* 80% de la taille standard */
+text-align: center;  /* centrage */
+border: 1px solid #000099; /* bordure du table header */
+padding: 30px;			/* marge interne  : peut �tre sp�cifi�e diff�rente au dessus et en dessous
+						Avec padding-top: vous pouvez sp�cifier l'espace entre le contenu de l'�l�ment et sa limite sup�rieure, etc. */
+background-color: #D0E3FA;
+}
+
+
+td {
+font-family: verdana, sans-serif;
+font-size: 0.80em; /* 80% de la taille standard */
+border: 1px solid #6495ed;
+padding: 2px;
+text-align: center;
+vertical-align: middle; /*qui peut prendre les valeurs :  baseline | top | middle */
+background-color: #ffffff;
+}
+
+td.pays1{ 
+width: 30%; /* d�finit la largeur des cellules "pays" */
+vertical-align: middle; /*qui peut prendre les valeurs :  baseline | top | middle */
+font-weight: bold;
+background-image: url('Flag_of_France.png'); 
+background-size: cover;
+}
+td.pays2{ 
+	width: 30%; /* d�finit la largeur des cellules "pays" */
+	vertical-align: middle; /*qui peut prendre les valeurs :  baseline | top | middle */
+	font-weight: bold;
+	background-image: url('drapeauus.jpg'); 
+	background-size: cover;
+	}
+
+td.artiste{ /* d�finit la largeur des cellules "artiste" */
+width: 70%; 
+vertical-align: bottom; /*qui peut prendre les valeurs :  baseline | top | middle */
+}
+
+h1 { 		/* d�finit  les titres H1 */
+	font-family: Arial, "sans serif";
+	font-size: 2em;		/* 200% de la taille standard */
+	color: #000099; /* couleur du texte pour cette classe */
+	text-align: center;
+	margin: 20px;
+	}
